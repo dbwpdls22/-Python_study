@@ -37,3 +37,23 @@ print(" ".join(map(str,result)))
 ```
 > 따옴표 안에 적힌 형태로 리스트 출력 현태를 변경
 > > 따옴표 안에 공백을 넣어야 띄어쓰기 가능
+
+### 3. 예외처리
+##### no.10951
+```
+  try :
+    a, b = map(int, sys.stdin.readline().split())
+    print(a+b)
+  except :
+    break
+```
+> 오류가 발생하면 except 블록이 수행됨
+```
+  try :
+    ...
+  except 발생 오류 as 오류 메시지 변수 :
+    ...
+```
+> 발생 오류와 오률 메시지 변수까지 포함
+> > ex. except ZeroDivisionError as e :
+> >     print(e)
