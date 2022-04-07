@@ -57,3 +57,15 @@ print(" ".join(map(str,result)))
 > 발생 오류와 오률 메시지 변수까지 포함
 > > ex. except ZeroDivisionError as e :
 > >     print(e)
+
+### 4. 집합
+##### no.3052
+```
+list = []
+for i in range(10) :
+  list.append(int(input())%42)
+list = set(list)
+print(len(list))
+```
+> list를 집합 자료형으로 변경 
+> > list의 중복 value 제거 
