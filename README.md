@@ -69,3 +69,16 @@ print(len(list))
 ```
 > list를 집합 자료형으로 변경 
 > > list의 중복 value 제거 
+
+### 5. 함수
+##### no. 15596
+```
+def 함수명(parameter1, ...) :
+  do something
+  return result
+```
+> parameter의 경우 자료형을 구분할 필요 없음 
+```
+함수명(argument1, argument2, ...)
+```
+> 함수 동작 명령, return 값을 
