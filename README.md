@@ -82,3 +82,13 @@ def 함수명(parameter1, ...) :
 함수명(argument1, argument2, ...)
 ```
 > 함수 동작 명령, return 값을 
+
+### 6. split vs strip
+```
+a = int(input().strip)
+b = int(input().split)
+```
+> strip : 좌우 whitespace 제거
+> > 문자 하나 들어올 때 사용
+> split : ()의 내용을 기준으로 str를 분할
+> > 한 줄에 여러 문자가 들어올 때 사용 
